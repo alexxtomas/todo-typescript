@@ -1,0 +1,70 @@
+.tasks-element {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.tasks-accordion-toggle  {
+  position: absolute;
+  left: -24px;
+  top: 4px;
+  cursor: pointer;
+}
+.tasks-accordion-toggle:hover {
+  stroke-width: 1px;
+}
+
+
+.tasks-header-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.tasks-status {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  padding: 2px 8px;
+  border-radius: 4px 4px 0 0;
+}
+.tasks-counter, .tasks-status-counter  {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 1;
+  text-transform: uppercase;
+  user-select: none;
+}
+.tasks-counter{
+  font-size: 12px;
+  color: rgba(101, 111, 125 ,1)
+}
+.tasks-status-counter  {
+color: #343434;
+font-size: 10px;
+margin-left: 5px;
+display: inline-block;
+}
+.tasks-labels-container {
+  display: flex;
+  gap: 25px;
+  padding-right: 30px;
+}
+.tasks-label {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+/* .rotate {
+  rotate: 90deg;
+} */
+.inactive {
+  display: none
+}

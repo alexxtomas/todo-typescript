@@ -1,0 +1,40 @@
+.form-dialog {
+  overflow: hidden;
+}
+.close-form-dialog {
+  position: absolute;
+  right: 8px;
+  top: 10px;
+}
+.form-dialog-form {
+  display: flex;
+  padding: 16px;
+  width: 100%;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.form-dialog-footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+
+
+.form-dialog-first-button {
+color: #fff;
+  background-color: #03b6fc;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  padding: 6px 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  max-width: 110px;
+  transition: all 0.3s ease-in-out; 
+}
+.form-dialog-first-button:hover {
+  filter: brightness(1.2);
+}

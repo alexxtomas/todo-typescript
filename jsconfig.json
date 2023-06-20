@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@router/*": ["src/router/*"],
+      "@utils/*": ["src/utils/*"],
+      "@views/*": ["src/views/*"],
+      "@validations/*": ["src/validations/*"],
+      "@listeners/*": ["src/listeners/*"],
+      "@logic/*": ["src/logic/*"],
+      "@store/*": ["src/store/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@content-loaders/*": ["src/content-loaders/*"],
+    }
+  }
+}
